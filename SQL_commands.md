@@ -24,7 +24,7 @@ The total number of items Peter purchased
 The total number of items purchased at Sears
 **sqlite> SELECT number_of_items FROM receipts WHERE store = "Sears";**
 All the attributes of receipts where Peter bought multiple items.
-**answer**
+**sqlite> SELECT * FROM receipts WHERE number_of_items > 1;**
 The average number of items purchased on a trip to JC Penny
 **answer**
 Great, now add a new receipt representing the purchase of a single "Heatstreet Maple Bourbon", purchased for $40.99 at "Schnapps Haus" on the most recent fourth of July.

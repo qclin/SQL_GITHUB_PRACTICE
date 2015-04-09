@@ -22,7 +22,7 @@ The item name of each purchase made at Strand.
 The total number of items Peter purchased
 **sqlite> SELECT number_of_items FROM receipts;**
 The total number of items purchased at Sears
-**answer**
+**sqlite> SELECT number_of_items FROM receipts WHERE store = "Sears";**
 All the attributes of receipts where Peter bought multiple items.
 **answer**
 The average number of items purchased on a trip to JC Penny

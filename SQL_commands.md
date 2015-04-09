@@ -16,7 +16,7 @@ All the attributes from all the receipts
 The store and item names from all the receipts
 **sqlite> SELECT store,item FROM receipts;**
 All the attributes from all purchases made at Toys R Us
-**new**
+**sqlite> SELECT * FROM receipts WHERE store = "Toys R Us";**
 The item name of each purchase made at Strand.
 **answer**
 The total number of items Peter purchased

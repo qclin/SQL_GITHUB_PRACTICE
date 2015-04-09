@@ -12,9 +12,9 @@ sqlite>
 ```
 
 All the attributes from all the receipts
-**sqlite> SELECT * FROM receipts**
+**sqlite> SELECT * FROM receipts;**
 The store and item names from all the receipts
-**answer**
+**sqlite> SELECT store,item FROM receipts;**
 All the attributes from all purchases made at Toys R Us
 **answer**
 The item name of each purchase made at Strand.

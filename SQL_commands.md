@@ -20,7 +20,7 @@ All the attributes from all purchases made at Toys R Us
 The item name of each purchase made at Strand.
 **answer**
 The total number of items Peter purchased
-**answer**
+**sqlite> SELECT number_of_items FROM receipts;**
 The total number of items purchased at Sears
 **answer**
 All the attributes of receipts where Peter bought multiple items.
